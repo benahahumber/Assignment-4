@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Innovate 2024</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Tech Innovate 2024</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#speakers">Speakers</a></li>
+                <li class="nav-item"><a class="nav-link" href="#schedule">Schedule</a></li>
+                <li class="nav-item"><a class="nav-link" href="#registration">Register</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="jumbotron text-center">
+        <h1 class="display-4">Welcome to Tech Innovate 2024</h1>
+        <p class="lead">Join us for a day of insightful talks and networking with industry leaders.</p>
+        <a href="#registration" class="btn btn-primary">Register Now</a>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container my-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>About the Event</h2>
+                <p>Tech Innovate 2024 is a premier tech conference where industry leaders share their insights on the
+                    latest trends in technology.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="event-image.jpeg" class="img-fluid" alt="Event Image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Speakers Section -->
+    <section id="speakers" class="container my-5">
+        <h2 class="text-center">Meet Our Speakers</h2>
+        <div class="row">
+            <!-- Speaker Cards -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="speaker1.jpeg" class="card-img-top" alt="Speaker 1">
+                    <div class="card-body">
+                        <h5 class="card-title">John Doe</h5>
+                        <p class="card-text">CEO of Tech Innovators</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="speaker3.jpeg" class="card-img-top" alt="Speaker 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Richie Krekes</h5>
+                        <p class="card-text">Lead Designer of Tech Innovators</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="speaker2.jpeg" class="card-img-top" alt="Speaker 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Tony Saprano</h5>
+                        <p class="card-text">CFO of Tech Innovators</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Schedule Section -->
+    <section id="schedule" class="container my-5">
+        <h2 class="text-center">Event Schedule</h2>
+        <div class="row">
+            <!-- Schedule Details -->
+            <div class="col-md-12">
+                <ul class="list-group">
+                    <li class="list-group-item">10:00 AM - Keynote by John Doe</li>
+                    <li class="list-group-item">11:00 AM - Workshop on AI</li>
+                    <li class="list-group-item">12:00 PM - Speech from Richie Krekes</li>
+                    <!-- More Schedule Items -->
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration Section -->
+    <section id="registration" class="container my-5">
+        <h2 class="text-center">Register Now</h2>
+        <center>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#registrationModal">
+                Register
+            </button>
+        </center>
+
+        <!-- Modal -->
+        <div class="modal fade" id="registrationModal" tabindex="-1" role="dialog"
+            aria-labelledby="registrationModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="registrationModalLabel">Event Registration</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- Registration Form -->
+                        <form>
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" class="form-control" id="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone</label>
+                                <input type="tel" class="form-control" id="phone" required>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container my-5">
+        <h2 class="text-center">Contact Us</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <form>
+                    <div class="form-group">
+                        <label for="contact-name">Name</label>
+                        <input type="text" class="form-control" id="contact-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-email">Email</label>
+                        <input type="email" class="form-control" id="contact-email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-message">Message</label>
+                        <textarea class="form-control" id="contact-message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <h3>Get in Touch</h3>
+                <p>Email: info@techinnovate2024.com</p>
+                <p>Phone: (123) 456-7890</p>
+                <p>Address: 123 Tech Street, Innovation City</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-light text-center py-4">
+        <p>&copy; 2024 Tech Innovate. All Rights Reserved.</p>
+        <p>
+            <a href="#">Privacy Policy</a> |
+            <a href="#">Terms of Service</a>
+        </p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
